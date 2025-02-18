@@ -1,0 +1,14 @@
+Found the following files
+/var/log/lastlog (29.5 kB, -rw-rw-r--)
+/var/log/btmp (0 B, -rw-rw----)
+/var/log/wtmp (0 B, -rw-rw-r--)
+/var/log/faillog (3.2 kB, -rw-r--r--)
+/var/log/auth.log Authentication	echo '' > /var/log/auth.log
+/var/log/cron.log Cron Jobs
+/var/log/maillog Mail
+/var/log/httpd Apache
+
+cat /dev/null > ~/.bash_history && kill -9 $$
+
+
+or you can use savemyass
