@@ -1,3 +1,9 @@
+find / -perm -222 -type d 2>/dev/null
+mkdir /dev/shm/.secret
+rmdir /dev/shm/.secret/
+
+
+
 Found the following files
 /var/log/lastlog (29.5 kB, -rw-rw-r--)
 /var/log/btmp (0 B, -rw-rw----)
@@ -11,4 +17,4 @@ Found the following files
 cat /dev/null > ~/.bash_history && kill -9 $$
 
 
-or you can use savemyass
+or use <a href="https://github.com/sundowndev/covermyass"> CoverMyAss </a>
